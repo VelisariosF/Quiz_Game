@@ -31,7 +31,6 @@ body {
 }
 
 .quiz-section .cards-container {
-  opacity: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,6 +89,21 @@ body {
   color: #ece9e4;
 }
 
+.quiz-section .cards-container .card ul .right-answer {
+  color: #00d652;
+}
+
+.quiz-section .cards-container .card ul .wrong-answer {
+  color: #d60000;
+}
+
+.quiz-section .meets-the-requirements-message {
+  opacity: 0;
+  position: absolute;
+  bottom: 10%;
+  right: 2.3%;
+}
+
 .quiz-section .submit-button {
   opacity: 0;
   position: absolute;
@@ -120,7 +134,8 @@ body {
 .quiz-section .result-container {
   opacity: 0;
   position: absolute;
-  top: 10%;
+  top: 6%;
+  right: 5%;
 }
 
 .quiz-section .result-container .try-again-button {

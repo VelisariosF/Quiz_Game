@@ -11,10 +11,14 @@
 <body >
     <div class="quiz-section">
         <h1 class="main-title">Welcome to my quiz game!</h1>
-
-        <div id="cards-container" class="cards-container active">
+        <div id="result-container" class="result-container">
+          <h2 id="result-title" class="result-title">Your score is: 3 / 4!</h1>
+          <button class="try-again-button" onclick="tryAgain()">Try Again!</button>
+          
+      </div>
+        <div id="cards-container" class="cards-container">
         
-          <!-- <div class="card card_1">
+         <!--  <div class="card card_1">
                 <p class="question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eveniet illum voluptas dolores sapiente suscipit.</p>
 
                 <ul class="possible-answers-list">
@@ -40,9 +44,9 @@
             </div>
 
             <div class="card card_2">
-                <p class="question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eveniet illum voluptas dolores sapiente suscipit.</p>
+                 <p class="question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eveniet illum voluptas dolores sapiente suscipit.</p>
 
-                <ul class="possible-answers-list">
+                   <ul class="possible-answers-list">
 
                       <li >
                         
@@ -71,13 +75,10 @@
             
            
         </div>
+        <p id="meets-the-requirements-message" class="meets-the-requirements-message">Please Answer all the questions!</p>
         <button id="submit-button" class="submit-button active" onclick="checkResults()">Submit Answers!</button>
-        <div id="result-container" class="result-container">
-            <h2 id="result-title" class="result-title">Your score is: 3 / 4!</h1>
-            <button class="try-again-button" onclick="tryAgain()">Try Again!</button>
-            
-        </div>
+       
     </div>
-    <script src="/assets/js/quiz.js"></script>
+   <script src="/assets/js/quiz.js"></script>
 </body>
 </html>

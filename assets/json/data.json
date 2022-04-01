@@ -1,29 +1,29 @@
 [
     {
-      "question": "What is 10/2?",
+      "question": "In 1768, Captain James Cook set out to explore which ocean?",
       "answers": {
-        "a": "3",
-        "b": "5",
-        "c": "115"
+        "a": "Pacific Ocean",
+        "b": "Atlantic Ocean",
+        "c": "Indian Ocean"
       },
-      "correctAnswer": "b"
+      "correctAnswer": "a"
     },
     {
-      "question": "What is 30/3?",
+      "question": "What is actually electricity?",
       "answers": {
-        "a": "3",
-        "b": "5",
-        "c": "10"
+        "a": "A flow of water",
+        "b": "A flow of air",
+        "c": "A flow of electrons"
       },
       "correctAnswer": "c"
     },
     {
-        "question": "What is 2 + 2?",
-        "answers": {
-          "a": "1",
-          "b": "4",
-          "c": "8"
-        },
-        "correctAnswer": "b"
-      }
+      "question": "What is the speed of sound?",
+      "answers": {
+        "a": "120 km/h",
+        "b": "1,200 km/h",
+        "c": "700 km/h"
+      },
+      "correctAnswer": "b"
+    }
   ]
